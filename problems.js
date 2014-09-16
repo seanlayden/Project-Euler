@@ -61,4 +61,4 @@ var counter = function(x) {
   }
 }
 
-counter(400);
+counter(/**interations to be summed**/);
