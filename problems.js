@@ -62,3 +62,17 @@ var counter = function(x) {
 }
 
 counter(/**interations to be summed**/);
+
+
+/** Comments **/
+
+for (i=0, i<x, i++) {
+  for (j=2, j<(x-1), j++) {
+    if (i % j == wholenumber) {
+      console.log(not prime);
+    } else {
+      console.log(prime);
+    }
+
+  }
+}
