@@ -64,7 +64,34 @@ var counter = function(x) {
 counter(/**interations to be summed**/);
 
 
-/** Comments **/
+/** Comments
+
+To find out if a number is prime:
+
+If a number is not divisible by 2, it is not divisible by any even number. This is not so for odd numbers.
+So we can check 2, then every odd number up to the squre root of the number that we are testing.
+
+
+To factor the number to its prime factors:
+
+Check for % = 0 conditions.
+
+(isPrime && n % j = 0)
+
+ **/
+
+function isPrime(x) {
+
+  for (j= 1, i = 1; i < x; i++) {
+    if (j % 2 == 0) {
+      /** Not prime**/
+    } else if (j % (3 + 2(i))) {
+      /** Not prime **/
+    } else {
+      /** Prime **/
+    }
+  }
+}
 
 for (i=0, i<x, i++) {
   for (j=2, j<(x-1), j++) {
