@@ -65,7 +65,7 @@ console.log(primes);
 
 var odds = [];
 var primes = [];
-amount = 78;
+amount = 78; // Change this amount to the number you are wishing to find the largest prime factor for.
 
 var oddgen = function (x) {
   for (i = 1; i <= x; i = i + 2) {
@@ -95,7 +95,7 @@ var factor = function (x) {
 };
 
 factor(amount);
-console.log(numberFactors);
+// console.log(numberFactors);
 
 var primeFactors = numberFactors.every(function(index) {
   for (index = 0; index <= numberFactors.length; index++) {
@@ -111,7 +111,7 @@ var primeFactors = numberFactors.every(function(index) {
   };
 });
 
-console.log(primes);
+// console.log(primes);
 
 var primesMax = Math.max.apply(Math, primes);
-console.log(primesMax)
+console.log("The largest prime factor of " + amount + " is " + primesMax + ".");
