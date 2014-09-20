@@ -80,18 +80,20 @@ Check for % = 0 conditions.
 
  **/
 
+var prime = [1, 2, 3];
+
 function isPrime(x) {
 
-  for (j= 1, i = 1; i < x; i++) {
+  for (j= 4, i = 0; i < x; i++) {
     if (j % 2 == 0) {
       /** Not prime**/
-    } else if (j % (3 + 2(i))) {
+    } else if (j % (3 + 2(i)) == 0) {
       /** Not prime **/
     } else {
-      /** Prime **/
-    }
-  }
-}
+      prime.push[j];
+    };
+  };
+};
 
 for (i=0, i<x, i++) {
   for (j=2, j<(x-1), j++) {
